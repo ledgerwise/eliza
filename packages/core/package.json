@@ -1,6 +1,6 @@
 {
-    "name": "@elizaos/core",
-    "version": "0.25.9",
+    "name": "@ledgerwise/elizaos-core",
+    "version": "0.26.0",
     "description": "",
     "type": "module",
     "main": "dist/index.js",

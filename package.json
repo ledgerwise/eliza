@@ -1,5 +1,5 @@
 {
-  "name": "eliza",
+  "name": "@ledgerwise/eliza",
   "scripts": {
     "format": "biome format --write .",
     "lint": "biome lint .",
