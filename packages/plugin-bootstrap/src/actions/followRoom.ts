@@ -1,6 +1,6 @@
-import { composeContext } from "@elizaos/core";
-import { generateTrueOrFalse } from "@elizaos/core";
-import { booleanFooter } from "@elizaos/core";
+import { composeContext } from "@ledgerwise/elizaos-core";
+import { generateTrueOrFalse } from "@ledgerwise/elizaos-core";
+import { booleanFooter } from "@ledgerwise/elizaos-core";
 import {
     type Action,
     type ActionExample,
@@ -8,7 +8,7 @@ import {
     type Memory,
     ModelClass,
     type State,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 
 export const shouldFollowTemplate =
     `Based on the conversation so far:

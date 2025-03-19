@@ -1511,7 +1511,7 @@ Complete changelog:
 * feat: elizaOS by @lalalune in https://github.com/elizaOS/eliza/pull/1352
 * chore: Merge Develop into Main by @lalalune in https://github.com/elizaOS/eliza/pull/1356
 * Update DOCUMENTATION links to point to https://elizaOS.github.io/eliza/ by @imwylin in https://github.com/elizaOS/eliza/pull/1353
-* feat: change @elizaos/eliza to @elizaos/core by @lalalune in https://github.com/elizaOS/eliza/pull/1357
+* feat: change @elizaos/eliza to @ledgerwise/elizaos-core by @lalalune in https://github.com/elizaOS/eliza/pull/1357
 * chore: develop -> main, change elizaos/eliza to elizaos/core by @lalalune in https://github.com/elizaOS/eliza/pull/1359
 * chore: New version 0.1.7 alpha.1 by @shakkernerd in https://github.com/elizaOS/eliza/pull/1360
 * chore: bump version to v0.1.7-alpha.1 by @shakkernerd in https://github.com/elizaOS/eliza/pull/1361
@@ -2003,7 +2003,7 @@ Complete changelog:
 * feat: elizaOS by @lalalune in https://github.com/elizaOS/eliza/pull/1352
 * chore: Merge Develop into Main by @lalalune in https://github.com/elizaOS/eliza/pull/1356
 * Update DOCUMENTATION links to point to https://elizaOS.github.io/eliza/ by @imwylin in https://github.com/elizaOS/eliza/pull/1353
-* feat: change @elizaos/eliza to @elizaos/core by @lalalune in https://github.com/elizaOS/eliza/pull/1357
+* feat: change @elizaos/eliza to @ledgerwise/elizaos-core by @lalalune in https://github.com/elizaOS/eliza/pull/1357
 * chore: develop -> main, change elizaos/eliza to elizaos/core by @lalalune in https://github.com/elizaOS/eliza/pull/1359
 * chore: New version 0.1.7 alpha.1 by @shakkernerd in https://github.com/elizaOS/eliza/pull/1360
 * chore: bump version to v0.1.7-alpha.1 by @shakkernerd in https://github.com/elizaOS/eliza/pull/1361
@@ -2040,7 +2040,7 @@ Complete changelog:
 * feat: elizaOS by @lalalune in https://github.com/elizaOS/eliza/pull/1352
 * chore: Merge Develop into Main by @lalalune in https://github.com/elizaOS/eliza/pull/1356
 * Update DOCUMENTATION links to point to https://elizaOS.github.io/eliza/ by @imwylin in https://github.com/elizaOS/eliza/pull/1353
-* feat: change @elizaos/eliza to @elizaos/core by @lalalune in https://github.com/elizaOS/eliza/pull/1357
+* feat: change @elizaos/eliza to @ledgerwise/elizaos-core by @lalalune in https://github.com/elizaOS/eliza/pull/1357
 * chore: develop -> main, change elizaos/eliza to elizaos/core by @lalalune in https://github.com/elizaOS/eliza/pull/1359
 * chore: New version 0.1.7 alpha.1 by @shakkernerd in https://github.com/elizaOS/eliza/pull/1360
 * chore: bump version to v0.1.7-alpha.1 by @shakkernerd in https://github.com/elizaOS/eliza/pull/1361

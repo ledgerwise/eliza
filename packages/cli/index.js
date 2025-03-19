@@ -117,7 +117,7 @@ pluginsCmd
     const updateDependencies = (deps) => {
       if (!deps) return false
       let changed = false
-      const okPackages = ['@elizaos/client-direct', '@elizaos/core', '@elizaos/plugin-bootstrap']
+      const okPackages = ['@ledgerwise/elizaos-client-direct', '@ledgerwise/elizaos-core', '@ledgerwise/elizaos-plugin-bootstrap']
       for (const dep in deps) {
         if (okPackages.indexOf(dep) !== -1) continue // skip these, they're fine
         // do we want/need to perserve local packages like core?
@@ -152,11 +152,11 @@ pluginsCmd
     }
 
     // add core to plugin
-    // # pnpm add @elizaos/core@workspace:* --filter ./packages/client-twitter
+    // # pnpm add @ledgerwise/elizaos-core@workspace:* --filter ./packages/client-twitter
 
     // ok this can be an issue if it's referencing a plugin it couldn't be
-    console.log('Making sure plugin has access to @elizaos/core')
-    const pluginAddCoreOutput = execSync('pnpm add @elizaos/core@workspace:* --filter ./packages/' + namePart, { cwd: elizaOSroot, stdio: 'pipe' }).toString().trim();
+    console.log('Making sure plugin has access to @ledgerwise/elizaos-core')
+    const pluginAddCoreOutput = execSync('pnpm add @ledgerwise/elizaos-core@workspace:* --filter ./packages/' + namePart, { cwd: elizaOSroot, stdio: 'pipe' }).toString().trim();
 
     if (packageJson.name !== '@elizaos-plugins/' + namePart) {
       // Update the name field

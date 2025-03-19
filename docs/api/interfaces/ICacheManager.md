@@ -1,4 +1,4 @@
-[@elizaos/core v0.25.8](../index.md) / ICacheManager
+[@ledgerwise/elizaos-core v0.25.8](../index.md) / ICacheManager
 
 # Interface: ICacheManager
 

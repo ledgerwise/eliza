@@ -8,7 +8,7 @@ import {
     DatabaseAdapter,
     elizaLogger,
     type IDatabaseCacheAdapter,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 import type {
     Account,
     Actor,
@@ -23,7 +23,7 @@ import type {
     Adapter,
     IAgentRuntime,
     Plugin,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 import type { Database as BetterSqlite3Database } from "better-sqlite3";
 import { v4 } from "uuid";
 import { load } from "./sqlite_vec.ts";

@@ -899,7 +899,7 @@ await runtime.processAction("WITHDRAW_CURVES_TOKEN", {
 Create a new plugin by implementing the Plugin interface:
 
 ```typescript
-import { Plugin, Action, Evaluator, Provider } from "@elizaos/core";
+import { Plugin, Action, Evaluator, Provider } from "@ledgerwise/elizaos-core";
 
 const myCustomPlugin: Plugin = {
     name: "my-custom-plugin",

@@ -1,4 +1,4 @@
-import { type Character, ModelProviderName } from "@elizaos/core";
+import { type Character, ModelProviderName } from "@ledgerwise/elizaos-core";
 
 export const defaultCharacter: Character = {
     name: "Eliza",

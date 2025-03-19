@@ -1,8 +1,8 @@
 import { describe, expect, it, vi, beforeEach } from 'vitest';
 import { goalEvaluator } from '../../src/evaluators/goal';
-import { composeContext, generateText, getGoals, parseJsonArrayFromText } from '@elizaos/core';
+import { composeContext, generateText, getGoals, parseJsonArrayFromText } from '@ledgerwise/elizaos-core';
 
-vi.mock('@elizaos/core', () => ({
+vi.mock('@ledgerwise/elizaos-core', () => ({
     composeContext: vi.fn(),
     generateText: vi.fn(),
     getGoals: vi.fn(),

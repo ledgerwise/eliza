@@ -1,4 +1,4 @@
-[@elizaos/core v0.25.8](../index.md) / parseShouldRespondFromText
+[@ledgerwise/elizaos-core v0.25.8](../index.md) / parseShouldRespondFromText
 
 # Function: parseShouldRespondFromText()
 

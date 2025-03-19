@@ -1,8 +1,8 @@
 import { describe, expect, it, vi, beforeEach } from 'vitest';
 import { continueAction } from '../../src/actions/continue';
-import { composeContext, generateMessageResponse, generateTrueOrFalse, ModelClass } from '@elizaos/core';
+import { composeContext, generateMessageResponse, generateTrueOrFalse, ModelClass } from '@ledgerwise/elizaos-core';
 
-vi.mock('@elizaos/core', () => ({
+vi.mock('@ledgerwise/elizaos-core', () => ({
     composeContext: vi.fn(),
     generateMessageResponse: vi.fn(),
     generateTrueOrFalse: vi.fn(),

@@ -17,7 +17,7 @@ import {
     type Media,
     type Memory,
     type Plugin,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 import bodyParser from "body-parser";
 import cors from "cors";
 import express, { type Request as ExpressRequest } from "express";

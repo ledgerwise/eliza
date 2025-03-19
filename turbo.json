@@ -12,9 +12,9 @@
         },
         "build": {
             "outputs": ["dist/**"],
-            "dependsOn": ["^@elizaos/core#build"]
+            "dependsOn": ["^@ledgerwise/elizaos-core#build"]
         },
-        "@elizaos/client-direct#build": {
+        "@ledgerwise/elizaos-client-direct#build": {
             "outputs": ["dist/**"],
             "dependsOn": []
         },

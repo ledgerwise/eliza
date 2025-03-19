@@ -1,4 +1,4 @@
-import { DirectClient } from "@elizaos/client-direct";
+import { DirectClient } from "@ledgerwise/elizaos-client-direct";
 import {
     type Adapter,
     AgentRuntime,
@@ -18,10 +18,10 @@ import {
     settings,
     stringToUuid,
     validateCharacterConfig,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 import { defaultCharacter } from "./defaultCharacter.ts";
 
-import { bootstrapPlugin } from "@elizaos/plugin-bootstrap";
+import { bootstrapPlugin } from "@ledgerwise/elizaos-plugin-bootstrap";
 import JSON5 from 'json5';
 
 import fs from "fs";
@@ -713,7 +713,7 @@ async function findDatabaseAdapter(runtime: AgentRuntime) {
   let adapter: Adapter | undefined;
   // if not found, default to sqlite
   if (adapters.length === 0) {
-    const sqliteAdapterPlugin = await import('@elizaos-plugins/adapter-sqlite');
+    const sqliteAdapterPlugin = await import('@ledgerwise/elizaos-adapter-sqlite');
     const sqliteAdapterPluginDefault = sqliteAdapterPlugin.default;
     adapter = sqliteAdapterPluginDefault.adapters[0];
     if (!adapter) {

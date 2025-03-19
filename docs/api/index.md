@@ -1,4 +1,4 @@
-# @elizaos/core v0.25.8
+# @ledgerwise/elizaos-core v0.25.8
 
 ## Enumerations
 

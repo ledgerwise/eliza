@@ -1,4 +1,4 @@
-import type { UUID, Character } from "@elizaos/core";
+import type { UUID, Character } from "@ledgerwise/elizaos-core";
 
 const BASE_URL =
     import.meta.env.VITE_SERVER_BASE_URL ||

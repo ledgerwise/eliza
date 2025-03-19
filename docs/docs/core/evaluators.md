@@ -181,16 +181,16 @@ const extractedFacts = [
 <summary>View Full Fact Evaluator Implementation</summary>
 
 ```typescript
-import { composeContext } from "@elizaos/core";
-import { generateObjectArray } from "@elizaos/core";
-import { MemoryManager } from "@elizaos/core";
+import { composeContext } from "@ledgerwise/elizaos-core";
+import { generateObjectArray } from "@ledgerwise/elizaos-core";
+import { MemoryManager } from "@ledgerwise/elizaos-core";
 import {
     type ActionExample,
     type IAgentRuntime,
     type Memory,
     ModelClass,
     type Evaluator,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 
 export const formatFacts = (facts: Memory[]) => {
     const messageStrings = facts
@@ -487,10 +487,10 @@ const updatedGoal = {
 <details>
 <summary>View Full Goal Evaluator Implementation</summary>
 ```typescript
-import { composeContext } from "@elizaos/core";
-import { generateText } from "@elizaos/core";
-import { getGoals } from "@elizaos/core";
-import { parseJsonArrayFromText } from "@elizaos/core";
+import { composeContext } from "@ledgerwise/elizaos-core";
+import { generateText } from "@ledgerwise/elizaos-core";
+import { getGoals } from "@ledgerwise/elizaos-core";
+import { parseJsonArrayFromText } from "@ledgerwise/elizaos-core";
 import {
     type IAgentRuntime,
     type Memory,
@@ -499,7 +499,7 @@ import {
     type Goal,
     type State,
     type Evaluator,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 
 const goalsTemplate = `TASK: Update Goal
 Analyze the conversation and update the status of the goals based on the new information provided.

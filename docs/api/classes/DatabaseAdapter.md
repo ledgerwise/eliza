@@ -1,4 +1,4 @@
-[@elizaos/core v0.25.8](../index.md) / DatabaseAdapter
+[@ledgerwise/elizaos-core v0.25.8](../index.md) / DatabaseAdapter
 
 # Class: `abstract` DatabaseAdapter\<DB\>
 

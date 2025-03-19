@@ -110,10 +110,10 @@ Create `package.json`:
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@elizaos/core": "latest"
+    "@ledgerwise/elizaos-core": "latest"
   },
   "peerDependencies": {
-    "@elizaos/core": "^1.0.0"
+    "@ledgerwise/elizaos-core": "^1.0.0"
   }
 }
 ```
@@ -163,7 +163,7 @@ touch src/actions/getMarsRoverPhoto.ts src/actions/getApod.ts
 Create `src/characters/natter.character.ts`:
 
 ```typescript
-import { ModelProviderName, Clients } from "@elizaos/core";
+import { ModelProviderName, Clients } from "@ledgerwise/elizaos-core";
 import { nasaPlugin } from '@elizaos/plugin-nasa'
 
 export const mainCharacter = {
@@ -209,7 +209,7 @@ interface MarsRoverResponse {
 Source: `src/index.ts`
 
 ```typescript
-import type { Plugin } from "@elizaos/core";
+import type { Plugin } from "@ledgerwise/elizaos-core";
 import { getMarsRoverPhoto } from './actions/getMarsRoverPhoto';
 import { getApod } from './actions/getApod';
 
@@ -224,7 +224,7 @@ export const nasaPlugin: Plugin = {
 Actions define how your plugin responds to messages:
 
 ```typescript
-import { Action, IAgentRuntime } from "@elizaos/core";
+import { Action, IAgentRuntime } from "@ledgerwise/elizaos-core";
 
 export const getMarsRoverPhoto: Action = {
     name: "NASA_GET_MARS_PHOTO",

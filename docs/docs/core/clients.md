@@ -114,7 +114,7 @@ Each client manages its own:
 Example of a basic client implementation:
 
 ```typescript
-import { Client, IAgentRuntime, ClientInstance } from "@elizaos/core";
+import { Client, IAgentRuntime, ClientInstance } from "@ledgerwise/elizaos-core";
 
 export class CustomClient implements Client {
     name = "custom";

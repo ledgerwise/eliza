@@ -1,6 +1,6 @@
-import { composeContext, elizaLogger } from "@elizaos/core";
-import { generateMessageResponse, generateTrueOrFalse } from "@elizaos/core";
-import { booleanFooter, messageCompletionFooter } from "@elizaos/core";
+import { composeContext, elizaLogger } from "@ledgerwise/elizaos-core";
+import { generateMessageResponse, generateTrueOrFalse } from "@ledgerwise/elizaos-core";
+import { booleanFooter, messageCompletionFooter } from "@ledgerwise/elizaos-core";
 import {
     type Action,
     type ActionExample,
@@ -10,7 +10,7 @@ import {
     type Memory,
     ModelClass,
     type State,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 
 const maxContinuesInARow = 3;
 

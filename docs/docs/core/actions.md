@@ -148,7 +148,7 @@ Check out the [ElizaOS Plugins org](https://github.com/elizaos-plugins) on GitHu
 Here's a comprehensive example of an image generation action:
 
 ```typescript
-import { Action, IAgentRuntime, Memory, State } from "@elizaos/core";
+import { Action, IAgentRuntime, Memory, State } from "@ledgerwise/elizaos-core";
 
 // Example image generation action
 const generateImageAction: Action = {

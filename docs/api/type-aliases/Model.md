@@ -1,4 +1,4 @@
-[@elizaos/core v0.25.8](../index.md) / Model
+[@ledgerwise/elizaos-core v0.25.8](../index.md) / Model
 
 # Type Alias: Model
 

@@ -1,4 +1,4 @@
-[@elizaos/core v0.25.8](../index.md) / EmbeddingConfig
+[@ledgerwise/elizaos-core v0.25.8](../index.md) / EmbeddingConfig
 
 # Type Alias: EmbeddingConfig
 

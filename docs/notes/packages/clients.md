@@ -40,7 +40,7 @@ graph TD
 -   **Discord** (`@elizaos/client-discord`) - Full Discord bot integration
 -   **Twitter** (`@elizaos/client-twitter`) - Twitter bot and interaction handling
 -   **Telegram** (`@elizaos/client-telegram`) - Telegram bot integration
--   **Direct** (`@elizaos/client-direct`) - Direct API for custom integrations
+-   **Direct** (`@ledgerwise/elizaos-client-direct`) - Direct API for custom integrations
 -   **Auto** (`@elizaos/client-auto`) - Automated trading and interaction client
 -   **Alexa skill** (`@elizaos/client-alexa`) - Alexa skill API integration
 -   **Deva** (`@elizaos/client-deva`) - Client for integrating with Deva.me
@@ -60,7 +60,7 @@ pnpm add @elizaos/client-twitter
 pnpm add @elizaos/client-telegram
 
 # Direct API
-pnpm add @elizaos/client-direct
+pnpm add @ledgerwise/elizaos-client-direct
 
 # Auto Client
 pnpm add @elizaos/client-auto
@@ -232,7 +232,7 @@ The Direct client provides a REST API interface for custom integrations.
 ### Basic Setup
 
 ```typescript
-import { DirectClientInterface } from "@elizaos/client-direct";
+import { DirectClientInterface } from "@ledgerwise/elizaos-client-direct";
 
 // Initialize client
 const client = await DirectClientInterface.start(runtime);

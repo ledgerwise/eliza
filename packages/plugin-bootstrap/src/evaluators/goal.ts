@@ -1,7 +1,7 @@
-import { composeContext } from "@elizaos/core";
-import { generateText } from "@elizaos/core";
-import { getGoals } from "@elizaos/core";
-import { parseJsonArrayFromText } from "@elizaos/core";
+import { composeContext } from "@ledgerwise/elizaos-core";
+import { generateText } from "@ledgerwise/elizaos-core";
+import { getGoals } from "@ledgerwise/elizaos-core";
+import { parseJsonArrayFromText } from "@ledgerwise/elizaos-core";
 import {
     type IAgentRuntime,
     type Memory,
@@ -10,7 +10,7 @@ import {
     type Goal,
     type State,
     type Evaluator,
-} from "@elizaos/core";
+} from "@ledgerwise/elizaos-core";
 
 const goalsTemplate = `TASK: Update Goal
 Analyze the conversation and update the status of the goals based on the new information provided.

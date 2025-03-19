@@ -366,7 +366,7 @@
     "description": "In-memory SQL database adapter for browser-based applications.",
     "custom_preview": "/eliza/logos/sqljs.png"
   },
-  "@elizaos-plugins/adapter-sqlite": {
+  "@ledgerwise/elizaos-adapter-sqlite": {
     "description": "File-based SQL database adapter for lightweight local storage.",
     "custom_preview": "/eliza/logos/sqlite.png"
   },
