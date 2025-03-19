@@ -1,6 +1,7 @@
 {
     "name": "@ledgerwise/elizaos-client-direct",
     "version": "0.26.1",
+    "type": "module",
     "main": "dist/index.cjs",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -18,6 +19,7 @@
         "dist"
     ],
     "dependencies": {
+        "@elizaos/plugin-tee-verifiable-log": "0.25.6-alpha.1",
         "@ledgerwise/elizaos-core": "workspace:*",
         "@types/body-parser": "1.19.5",
         "@types/cors": "2.8.17",
